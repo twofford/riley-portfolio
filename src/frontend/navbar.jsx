@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 const RileyNavbar = () => {
     return (
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Riley Wofford</Navbar.Brand>
+        <Navbar.Brand href="/">Riley Wofford</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
