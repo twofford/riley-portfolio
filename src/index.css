@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.img-thumbnail {
+  border: none;
+  border-radius: 0px;
+  transition: 0.2s;
+  filter: none;
+  -webkit-filter: none;
+  margin-top: 10px;
+}
+
+.img-thumbnail:hover {
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+  cursor: pointer;
+}
+
+div.modal-body {
+  padding: 0px;
+}
